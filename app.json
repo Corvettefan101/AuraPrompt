@@ -1,12 +1,35 @@
 {
   "expo": {
+    "name": "AuraPrompt",
+    "slug": "aurapromptapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./AuraPrompt/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./AuraPrompt/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./AuraPrompt/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.corvettefan101.aurapromptapp"
+    },
+    "web": {
+      "favicon": "./AuraPrompt/assets/favicon.png"
+    },
     "extra": {
       "eas": {
         "projectId": "ff841ab2-f530-49b3-9685-5f58a30a3b80"
       }
-    },
-    "android": {
-      "package": "com.corvettefan101.aurapromptapp"
     }
   }
 }
